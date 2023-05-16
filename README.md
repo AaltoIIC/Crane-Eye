@@ -6,12 +6,12 @@ Lenovo ThinkCentre mini-pc <br>
 Mounts on the crane trolley <br>
 
 **System description:** <br>
-PC is connected to Ilmatar5GHz LAN, remote control with Anydesk-software is possible (pw: Crane_eye, IP: ask from school). PC works as a server for client computers via WLAN. Server boots when crane main power is switched on, Anydesk and python code are run at start-up. Server can be accessed for maintenance via Anydesk. Client can receive camera position and crane laser position in (x, y). Client can be modified to do whatever necessary. Our example client code (Client_plot.py) will plot camera position using matplotlib.pyplot to an updating xy-graph for visual inspection. 
+PC is connected to Ilmatar5GHz LAN, remote control with Anydesk-software is possible (pw: Crane_eye, IP: ask from school). PC works as a server for client computers via LAN. Server boots when crane main power is switched on, Anydesk and python code are run at start-up. Server can be accessed for maintenance via Anydesk. Client can receive camera position and crane laser position in (x, y). Client can be modified to do whatever necessary. Our example client code (Client_plot.py) will plot camera position using matplotlib.pyplot to an updating xy-graph for visual inspection. 
 
 **Libraries:** <br>
 Server’s Python code utilizes opcua and crane –libraries, which are necessary. Libraries can be found below. <br>
-Crane: <br>
-Opcua:
+OPC UA: https://github.com/AaltoIIC/OPC-UA-GraphQL-Wrapper <br>
+Crane: https://github.com/AaltoIIC/ilmatar-python-lib <br>
 
 **How to boot server:** <br>
 
