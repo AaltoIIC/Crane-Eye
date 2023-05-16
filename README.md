@@ -18,6 +18,7 @@ Crane: https://github.com/AaltoIIC/ilmatar-python-lib <br>
 -Server can be accessed using Anydesk. IP: ask from school and password: Crane_eye <br>
 -Server should launch Server_client.py automatically, but it can be also launched manually. <br>
 -Python file should be launched using terminal if not selected as default. <br>
+-Return the camera to origo by deleting lastpos.txt from server. New will be automatically created. <br>
 
 **How to boot client:** <br>
 -You can use any computer that can access the LAN and has Python 3.10 or older. <br>
